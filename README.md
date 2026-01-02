@@ -1,16 +1,81 @@
-# React + Vite
+🧾 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Expense Tracker web application built with React and Vite to help users track income and expenses.
 
-Currently, two official plugins are available:
+📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✔ Track income and expenses
+✔ Add, edit, and remove transactions
+✔ Display balance summary
+✔ Persistent UI with React components
+✔ Fast development powered by Vite
 
-## React Compiler
+🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend: React
 
-## Expanding the ESLint configuration
+Build Tool: Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: CSS
+
+JavaScript: ES6+
+
+📁 Project Structure
+Expense-Tracker/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── index.jsx
+├── .gitignore
+├── package.json
+├── README.md
+├── vite.config.js
+
+📦 Installation
+
+Clone the repository
+
+git clone https://github.com/thiro2003/Expense-Tracker.git
+
+
+Navigate into project
+
+cd Expense-Tracker
+
+
+Install dependencies
+
+npm install
+
+⭐ Usage
+
+Start the development server:
+
+npm run dev
+
+
+Open your browser and navigate to:
+
+http://localhost:5173/
+
+🛠 Available Scripts
+Command	Description
+npm run dev	Run development server
+npm run build	Build for production
+npm run preview	Local preview of production build
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new branch
+
+Make your changes
+
+Submit a Pull Request
+
+📄 License
+
+This project is open source and available under the MIT License.
